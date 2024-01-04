@@ -1,2 +1,2 @@
-# gfg-mern-course-project
+# GFG Mern Course Project - fsrnl-42
  
