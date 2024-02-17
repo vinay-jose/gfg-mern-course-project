@@ -2,4 +2,4 @@
  
 A responive landing page for a food delivery app.
 
-View page here: [Eatsy.com](https://vinay-jose.github.io/gfg-mern-course-project/); deployed using [Github Pages](https://pages.github.com/)
+View page here: [Eatsy.com](https://vinay-jose.github.io/gfg-mern-course-project/) ; deployed using [Github Pages](https://pages.github.com/).
