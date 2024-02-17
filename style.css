@@ -1,25 +1,19 @@
-/*CSS Reset*/
 *{
     margin:0px;
     padding:0px;
     font-family: 'Montserrat', sans-serif;
 }
-/*Header Styling*/
 
-/* Navigation bar styling*/
 #first_block{
     display: flex;
     flex-direction: row;
-    /* flex-wrap:wrap; */
     justify-content: space-between;
     align-items: center;
     background-color: rgb(202, 255, 251);
-    /* border-radius:15px; */
-    /* margin: 10px; */
+    padding: 20px;
     position:relative;
     z-index: 1024;
     width: 100%;
-    /* height: 20vh; */
     box-sizing: border-box;
 }
 
@@ -61,7 +55,6 @@
 
 #navcontent li{
     list-style: none;
-    margin: 15px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -71,14 +64,12 @@
     padding: 1px;
     color:rgb(0, 110, 39);
     text-decoration: none;
-    padding: 10px;
+    padding: 20px;
     height: 100%;
 }
 #navcontent li a:hover {
-    /* background-color: rgb(250, 186, 186); */
     background-color: tomato;
     color: black;
-    /* border-radius: 5px; */
 }
 
 .block{
@@ -100,45 +91,29 @@
     align-items: center; 
 }
 
-/*Button Styling*/
 .btn{
-    /* margin-top:15px; */
-    /* border: 3px solid white; */
-    /* border-radius:15px; */
     border: white;
     background-color:tomato;
     color: black;
     padding: 10px;
     font-size:20px;
     font-family: 'Montserrat', sans-serif;
-    /* font-weight:lighter; */
-    /* width: 40%; */
 }
 .btn:hover{
     cursor: pointer;
     background-color: rgb(202, 255, 251);
 }
 
-
-/* .container{
-    display: flex;
-    justify-content: space-evenly;
-} */
 .item{
-    /* width:20%; */
     height:auto;
     box-shadow: 5px 3px 5px 3px;
     padding: 10px;
-    /* margin-top:51px; */
-    /* margin-bottom: 51px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size:10px;
     gap: 10px;
-    /* position: relative; */
-    /* margin-right: 38px; */
     border: 2px solid black;
     border-radius: 20px;
     box-sizing: border-box;
@@ -146,7 +121,6 @@
 
 .item img{
     width: 50%;
-    /* height: 100%; */
     overflow: hidden;
 }
 
@@ -163,17 +137,13 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 100 bold;
 }
-/* #container4{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    margin: 41px;
-}   */
 
-/*Designing the footer*/
 footer{
     text-align: center;
     margin: 20px;
     border: white;
+    background-color: lightgrey;
+    padding: 10px;
 }
 
 @media (max-width:1040px) {
